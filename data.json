@@ -1,0 +1,52 @@
+{
+    "skills": [
+        {
+            "id":1,
+            "name": "React",
+            "icon": "fa-brands fa-react",
+            "description": "EC2, VPC, Cognito, CloudFormation, RDS, S3, CloudFront, IAM and others"
+        },
+        {
+            "id":2,
+            "name": "Node",
+            "icon": "fa-brands fa-node",
+            "description": "Developing and maintaing infrastructure as code with Terraform, Packer and Vagrant"
+        },
+        {
+            "id":3,
+            "name": "Bootstrap",
+            "icon": "fa-brands fa-bootstrap",
+            "description": "Launching, configuring and maintaining cloud environments with Ansible"
+        },
+        {
+            "id":4,
+            "name": "MySQL",
+            "icon": "fa-database",
+            "description": "Implementing continuous integration and deployment pipelines with Jenkins and GitLab CI"
+        },
+        {
+            "id":5,
+            "name": "AutoCAD",
+            "icon": "",
+            "description": "Implementing continuous integration and deployment pipelines with Jenkins and GitLab CI"
+        },
+        {
+            "id":6,
+            "name": "SketchUp",
+            "source": "../../images/icons/sketchup.svg",
+            "description": "Implementing continuous integration and deployment pipelines with Jenkins and GitLab CI"
+        },
+        {
+            "id":7,
+            "name": "PS/AI",
+            "icon": "fa-brands fa-photoshop",
+            "description": "Implementing continuous integration and deployment pipelines with Jenkins and GitLab CI"
+        },
+        {
+            "id":8,
+            "name": "ArcGIS",
+            "icon": "fa-brands fa-gis",
+            "description": "Implementing continuous integration and deployment pipelines with Jenkins and GitLab CI"
+        }
+    ]
+}
