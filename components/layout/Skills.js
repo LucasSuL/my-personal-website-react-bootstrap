@@ -3,21 +3,18 @@ import SkillCard from "../elements/SkillCard"
 import Data from "../../data.json"
 
 export default function Skills() {
-    const skillCard = Data.skills.map((item) => {
+    const skillCard = Data.skills.map((value, index) => {
         return <SkillCard
-            index={item.id}
-            {...item}
+            key={index}
+            {...value}
         />
     })
     return (
-        <div class="container mt-4">
-            <h2 class="fw-bold">Skills</h2>
-            {/* <img src= alt="Custom Icon" /> */}
-
+        <div class="container mt-5" id="skills">
+            <h2 class="text-shorter fw-bold">Skills</h2>
             <div class="row">
                 {skillCard}
             </div>
-
         </div>
     );
 }

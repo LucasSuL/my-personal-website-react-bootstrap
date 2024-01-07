@@ -1,52 +1,116 @@
 {
+    "hobbies": [
+        {
+            "name": "Cycling",
+            "icon": "fa-person-biking"
+        },
+        {
+            "name": "Skiing",
+            "icon": "fa-skiing"
+        },
+        {
+            "name": "Cat lover",
+            "icon": "fa-cat"
+        },
+        {
+            "name": "Music",
+            "icon": "fa-music"
+        },
+        {
+            "name": "Awareness",
+            "icon": "fa-heart-pulse"
+        }
+    ],
     "skills": [
         {
-            "id":1,
             "name": "React",
             "icon": "fa-brands fa-react",
             "description": "EC2, VPC, Cognito, CloudFormation, RDS, S3, CloudFront, IAM and others"
         },
         {
-            "id":2,
             "name": "Node",
             "icon": "fa-brands fa-node",
             "description": "Developing and maintaing infrastructure as code with Terraform, Packer and Vagrant"
         },
         {
-            "id":3,
             "name": "Bootstrap",
             "icon": "fa-brands fa-bootstrap",
             "description": "Launching, configuring and maintaining cloud environments with Ansible"
         },
         {
-            "id":4,
             "name": "MySQL",
             "icon": "fa-database",
             "description": "Implementing continuous integration and deployment pipelines with Jenkins and GitLab CI"
         },
         {
-            "id":5,
             "name": "AutoCAD",
-            "icon": "",
+            "icon": "fa-compass-drafting",
             "description": "Implementing continuous integration and deployment pipelines with Jenkins and GitLab CI"
         },
         {
-            "id":6,
             "name": "SketchUp",
-            "source": "../../images/icons/sketchup.svg",
+            "icon": "fa-cubes",
             "description": "Implementing continuous integration and deployment pipelines with Jenkins and GitLab CI"
         },
         {
-            "id":7,
             "name": "PS/AI",
-            "icon": "fa-brands fa-photoshop",
+            "icon": "fa-layer-group",
             "description": "Implementing continuous integration and deployment pipelines with Jenkins and GitLab CI"
         },
         {
-            "id":8,
             "name": "ArcGIS",
-            "icon": "fa-brands fa-gis",
+            "icon": "fa-mountain-city",
             "description": "Implementing continuous integration and deployment pipelines with Jenkins and GitLab CI"
+        }
+    ],
+    "experience": [
+        {
+            "company": "The University of Adelaide",
+            "position": "Master of Computing and Innovation",
+            "website": "https://www.adelaide.edu.au/degree-finder/mcomi_mcompinnov.html",
+            "startDate": "2022-07-24",
+            "endDate": "2024-07-10",
+            "summary": "This challenging master's program is tailored for students without a background in computer science who aim to transition to a computer science-related field. Currently, I have maintained a weighted average score of 91.2 across all my computer science-related courses, covering various algorithmic courses, artificial intelligence, operating systems, and others. My GPA for all courses stands at 6.5 out of 7.0",
+        },
+        {
+            "company": "Atkins",
+            "position": "Project Manager / Urban Planner",
+            "website": "https://www.atkinsrealis.com/",
+            "startDate": "2020-07-10",
+            "endDate": "2022-07-10",
+            "summary": "In addition to handling technical tasks, I am also responsible for the majority of project management duties. This includes developing design plans, coordinating project team members, conducting initial financial analysis, and managing communication across various levels.",
+        },
+        {
+            "company": "Atkins",
+            "position": "Assistant Urban Planner",
+            "website": "https://www.atkinsrealis.com/",
+            "startDate": "2016-07-14",
+            "endDate": "2020-07-10",
+            "summary": "Over 6 years of experience in top-end urban planning projects in China, where I actively participated in numerous large-scale urban development and consultancy projects.",
+        },
+        {
+            "company": "Atkins",
+            "position": "Project Planner Intern",
+            "website": "https://www.atkinsrealis.com/",
+            "startDate": "2015-11-14",
+            "endDate": "2016-02-10",
+            "summary": "As the design intern in the team which successfully competed against Jurong Singapore and the Boston Consultancy Group to secure the Meishan consultancy project in Jan 2016.",
+        },
+        {
+            "company": "Beijing Institute of Architectural Design",
+            "position": "Project Planner Intern",
+            "website": "https://www.biad.com.cn/",
+            "startDate": "2015-11-14",
+            "endDate": "2016-02-10",
+            "summary": "Responsible for the planning of 'David Camp' villas in Beijing, involving tasks such as site analysis, elevation design, zoning considerations and collaboration with architects and other stakeholders to ensure the successful development of the project.",
+        },
+        {
+            "company": "Beijing University of Civil Engineering and Architecture",
+            "position": "Bachelor of Engineering in Urban Planning",
+            "website": "https://english.bucea.edu.cn/",
+            "startDate": "2011-09-01",
+            "endDate": "2016-07-01",
+            "summary": "A robust five-year program designed to cultivate professionals in the fields of architecture, urban planning, and engineering.",
         }
     ]
 }

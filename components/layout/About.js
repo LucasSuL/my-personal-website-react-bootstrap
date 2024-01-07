@@ -1,13 +1,25 @@
 import React from "react"
-import imgLS from "../../images/lucassu.jpg"
+import portrait from "../../public/images/lucassu.jpg"
+import Data from "../../data.json"
+import HobbyBadge from "../elements/HobbyBadge"
 
-export default function About(props) {
+
+export default function About() {
+    const hobbies = Data.hobbies.map((value, index) => {
+        return (
+            <HobbyBadge
+                key={index}
+                {...value}
+            />
+        )
+    })
+
     return (
         <div class="container-fluid d-flex flex-column align-items-center text-bg-success p-4" id="about">
             <img
                 width="180px"
                 height="180px"
-                src={imgLS}
+                src={portrait}
                 alt="Lucas Su"
                 class="rounded-circle my-3 border border-success-subtle border-4 shadow"
                 onError={(e) => { e.target.onerror = null; e.target.src = Resume.basics.x_pictureFallback }}
@@ -22,39 +34,8 @@ export default function About(props) {
                     <p class="m-0">Project Manager</p>
                 </div>
             </div>
-            <div class = "d-flex p-5 justify-content-center gap-4 fs-8">
-                <div class="d-flex align-items-center justify-content-center ">
-                    <div class="bg-dark bg-opacity-50 p-1 rounded-start-3 px-2">Cycling</div>
-                    <div class = "bg-light p-1 rounded-end-3">
-                        <i class="fa-solid fa-person-biking text-black"></i>
-                    </div>
-                </div>
-                <div class="d-flex align-items-center justify-content-center ">
-                    <div class="bg-dark bg-opacity-50 p-1 rounded-start-3 px-2">Skiing</div>
-                    <div class = "bg-light p-1 rounded-end-3">
-                        <i class="fa-solid fa-skiing text-black"></i>
-                    </div>
-                </div>
-                <div class="d-flex align-items-center justify-content-center ">
-                    <div class="bg-dark bg-opacity-50 p-1 rounded-start-3 px-2">Cat lover</div>
-                    <div class = "bg-light p-1 rounded-end-3">
-                        <i class="fa-solid fa-cat text-black"></i>
-                    </div>
-                </div>
-                <div class="d-flex align-items-center justify-content-center ">
-                    <div class="bg-dark bg-opacity-50 p-1 rounded-start-3 px-2">Music</div>
-                    <div class = "bg-light p-1 rounded-end-3">
-                        <i class="fa-solid fa-music text-black"></i>
-                    </div>
-                </div>
-                <div class="d-flex align-items-center justify-content-center ">
-                    <div class="bg-dark bg-opacity-50 p-1 rounded-start-3 px-2">Awareness</div>
-                    <div class = "bg-light p-1 rounded-end-3">
-                        <i class="fa-solid fa-heart-pulse text-black"></i>
-                    </div>
-                </div>
-
-
+            <div class="d-flex p-5 justify-content-center gap-4 fs-8">
+                {hobbies}
             </div>
 
         </div>

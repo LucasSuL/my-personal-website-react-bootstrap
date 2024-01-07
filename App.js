@@ -9,7 +9,8 @@ import Experience from "./components/layout/Experience"
 import Articles from "./components/layout/Articles"
 import Footer from './components/layout/Footer'
 
-import "./App.css"
+
+import "./public/App.css"
 
 function App() {
     return (
