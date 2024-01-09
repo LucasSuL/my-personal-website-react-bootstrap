@@ -12,7 +12,7 @@ export default function Footer(props) {
             <p>
                 Built by{" "}
                 <a
-                    href="https://github.com/LucasSuL" target="_blank" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">
+                    href="https://github.com/LucasSuL/my-personal-website-react-bootstrap" target="_blank" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">
                     <strong>Lucas Su</strong>
                 </a>
             </p>
