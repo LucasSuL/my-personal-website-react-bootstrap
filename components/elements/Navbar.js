@@ -2,7 +2,7 @@ import React from "react"
 
 export default function Navbar() {
     return (
-        <nav class="navbar navbar-expand-lg navbar-dark  p-2"> 
+        <nav class="navbar navbar-expand-lg navbar-dark p-2"> 
             <div class="container-fluid">
                 <a class="navbar-brand ps-2" href="#">
                     <div class="h3 fw-bold">Lucas Su</div>

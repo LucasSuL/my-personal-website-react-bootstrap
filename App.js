@@ -15,12 +15,12 @@ import "./public/App.css"
 function App() {
     return (
         <div className='App'>
-            {/* <Hero /> */}
-            {/* <About /> */}
-            {/* <Skills /> */}
-            {/* <Experience /> */}
+            <Hero />
+            <About />
+            <Skills />
+            <Experience />
             <Articles />
-            {/* <Footer /> */}
+            <Footer />
         </div>
     )
 }
