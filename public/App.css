@@ -26,6 +26,15 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.text-m {
+    font-family: 'Mulish', sans-serif;
+}
+
+.navbar{
+    transform: none;
+    transition: transform 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+}
+
 .tm-main {
     margin: 0;
     padding: 0;
@@ -49,7 +58,7 @@
     height: 3px;
     left: 50%;
     bottom: -13px;
-    background-color:#198754;
+    background-color: #198754;
     transform: translateX(-50%)
 }
 
@@ -66,7 +75,7 @@
     content: "";
     width: 3.5px;
     height: 100%;
-    background-image: linear-gradient(to bottom, #198754, rgb(128, 240, 0),#3abd5f);
+    background-image: linear-gradient(to bottom, #198754, rgb(128, 240, 0), #3abd5f);
     transform: translateX(-1.5px);
 }
 
@@ -96,14 +105,14 @@
     margin-bottom: 0;
 }
 
-.checkpoint:first-child{
+.checkpoint:first-child {
     margin-top: 80px;
 }
 
 .checkpoint .date {
     position: absolute;
     top: -20px;
-    background-image: linear-gradient(to right, #198754,#3abd5f);
+    background-image: linear-gradient(to right, #198754, #3abd5f);
 }
 
 .checkpoint:nth-child(odd) .date {
@@ -113,7 +122,7 @@
 .checkpoint .circle {
     width: 25px;
     height: 25px;
-    background-color:  #3abd5f;
+    background-color: #3abd5f;
     border-radius: 50%;
     position: absolute;
     top: 0;
@@ -164,7 +173,7 @@
 
     .checkpoint:nth-child(odd) .date {
         left: 20px;
-        width:fit-content;
+        width: fit-content;
     }
 
     .checkpoint:nth-child(odd) .circle {

@@ -13,7 +13,7 @@ export default function Experience(props) {
     })
 
     return (
-        <div class="container py-2" id="experience">
+        <div class="container py-2" id="experience" style={{ maxWidth: "1200px" }}>
             <h2 class="text-shorter fw-bold">Experience</h2>
             <div class="tm-main">
                 <div className="tm-header mb-2">

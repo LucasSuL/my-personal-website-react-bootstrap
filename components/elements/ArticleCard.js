@@ -2,12 +2,12 @@ import React from "react"
 
 export default function ArticleCard({ title, description, date, url, image }) {
     return (
-        <div class="col-lg-3 col-sm-6 col-12 g-0">
-            <div class="card shadow mb-5 bg-body-tertiary rounded">
+        <div class="col-lg-3 col-sm-6 col-12 p-2">
+            <div class="card shadow-sm bg-body-tertiary rounded">
                 <div class="row p-3">
-                    <div class="col-10 fw-bold fs-5">
+                    <a class="col-10 fw-bold fs-5 link-dark" href={url} style={{style:"none"}}>
                         {title}
-                    </div>
+                    </a>
                     <div class="col-2 align-self-center fs-6">
                         <i className="fab fa-2x fa-dev"></i>
                     </div>

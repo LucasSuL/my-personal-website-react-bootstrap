@@ -11,7 +11,7 @@ export default function SkillCard({ name, icon, description }) {
                     <div class="col-md-9">
                         <div class="card-body">
                             <h5 class="card-title fw-bold fs-4">{name}</h5>
-                            <p class="card-text fs-8 text-secondary">{description}</p>
+                            <p class="card-text fs-7 text-secondary">{description}</p>
                         </div>
                     </div>
                 </div>
