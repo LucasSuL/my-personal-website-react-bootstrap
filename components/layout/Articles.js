@@ -12,7 +12,7 @@ export default function Articles() {
                     throw new Error('Error! Bad Request!');
                 }
                 const data = await response.json();
-                setMyData(data.slice(0,4));
+                setMyData(data.slice(0, 4));
             } catch (error) {
                 console.error('Error: ', error);
             }
@@ -38,13 +38,13 @@ export default function Articles() {
             />
         ))
     ) : (
-        <div class="spinner-border p-5" role="status">
+        <div class="spinner-border m-2" role="status">
             <span class="visually-hidden">Loading...</span>
         </div>
     )
 
     return (
-        <div class="container mt-5" id="articles" style={{ maxWidth: "1200px" }}>
+        <div class="container mt-2" id="articles" style={{ maxWidth: "1200px" }}>
             <h2 class="text-shorter fw-bold">Articles</h2>
             <h3 class="fs-4" style={{ color: "#555" }}>My latest articles</h3>
             <div class="row p-1">
