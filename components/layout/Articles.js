@@ -38,7 +38,7 @@ export default function Articles() {
             />
         ))
     ) : (
-        <div class="spinner-border m-2" role="status">
+        <div class="spinner-border m-2 mt-5" role="status">
             <span class="visually-hidden">Loading...</span>
         </div>
     )
@@ -47,7 +47,7 @@ export default function Articles() {
         <div class="container mt-2" id="articles" style={{ maxWidth: "1200px" }}>
             <h2 class="text-shorter fw-bold">Articles</h2>
             <h3 class="fs-4" style={{ color: "#555" }}>My latest articles</h3>
-            <div class="row p-1">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
                 {articleCard}
             </div>
         </div>

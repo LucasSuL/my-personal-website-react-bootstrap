@@ -34,7 +34,9 @@ export default function About() {
                     <p class="m-0">Project Manager</p>
                 </div>
             </div>
-            <div class="d-flex p-5 justify-content-center gap-4 fs-8">
+            <div class="row row-cols-lg-5 g-2 fs-8 p-5 g-4"
+            // "container d-flex p-5 justify-content-center gap-4 fs-8"
+            >
                 {hobbies}
             </div>
 

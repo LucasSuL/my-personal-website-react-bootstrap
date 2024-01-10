@@ -2,10 +2,10 @@ import React from "react"
 
 export default function ArticleCard({ title, description, date, url, image }) {
     return (
-        <div class="col-lg-3 col-sm-6 col-12 p-2">
-            <div class="card shadow-sm bg-body-tertiary rounded">
+        <div class="col p-2">
+            <div class="card shadow-sm bg-body-tertiary rounded h-100">
                 <div class="row p-3">
-                    <a class="col-10 fw-bold fs-5 link-dark" href={url} target="_blank" style={{style:"none"}}>
+                    <a class="col-10 align-self-center fw-bold fs-5 lh-sm link-dark text-decoration-none" href={url} target="_blank" style={{ style: "none" }}>
                         {title}
                     </a>
                     <div class="col-2 align-self-center fs-6">
@@ -17,10 +17,11 @@ export default function ArticleCard({ title, description, date, url, image }) {
                     <img class="w-100" src={image} ></img>
                     <div className="p-2 px-4 pb-3">
                         <p class="card-text">{description}</p>
-                        <h6 class="card-subtitle mb-2 text-body-secondary fs-7">{date}</h6>
-                        <a href={url} class="card-link fs-7">Read the full article</a>
+                        <h6 class="card-subtitle  text-body-secondary fs-8">{date}</h6>
                     </div>
-
+                </div>
+                <div class="card-footer">
+                    <a href={url} class="card-link fs-7 text-decoration-none">Read the full article</a>
                 </div>
             </div>
         </div>
