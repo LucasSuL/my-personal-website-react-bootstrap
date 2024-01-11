@@ -31,12 +31,10 @@ export default function About() {
                 <div class="fw-bold fs-4 mt-3 d-flex flex-column align-items-center">
                     <p class="m-0">Full Stack Developer</p>
                     <p class="m-0">Business Analyst</p>
-                    <p class="m-0">Project Manager</p>
+                    <p class="m-0">Product Manager</p>
                 </div>
             </div>
-            <div class="row row-cols-lg-5 g-2 fs-8 p-5 g-4"
-            // "container d-flex p-5 justify-content-center gap-4 fs-8"
-            >
+            <div class="row row-cols-lg-5 g-2 fs-8 p-5 g-4">
                 {hobbies}
             </div>
 

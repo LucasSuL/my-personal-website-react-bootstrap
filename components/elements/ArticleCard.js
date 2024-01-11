@@ -5,7 +5,7 @@ export default function ArticleCard({ title, description, date, url, image }) {
         <div class="col p-2">
             <div class="card shadow-sm bg-body-tertiary rounded h-100">
                 <div class="row p-3">
-                    <a class="col-10 align-self-center fw-bold fs-5 lh-sm link-dark text-decoration-none" href={url} target="_blank" style={{ style: "none" }}>
+                    <a class="col-10 align-self-center clamp-two-lines fw-bold fs-5 lh-sm link-dark text-decoration-none" href={url} target="_blank" style={{ style: "none" }}>
                         {title}
                     </a>
                     <div class="col-2 align-self-center fs-6">

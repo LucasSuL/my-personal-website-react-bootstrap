@@ -1,0 +1,41 @@
+
+// $success: red;
+// // 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
+// @import "../node_modules/bootstrap/scss/bootstrap";
+
+/*********************
+-- Table of contents
+
+- Custom variables 
+- Bootstrap functions
+- Bootstrap variables
+- Bootstrap mixins
+- Custom map amends
+- Custom utilities
+- Bootstrap main import
+
+***********************
+*/
+
+
+// Import our variable overrides.
+// Go here to set custom values for Bootstrap vars
+@import "./abstracts/variables";
+
+// Import Bootstrap functions, vars and mixins
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+// @import "../node_modules/bootstrap/scss/mixins";
+
+// Import our map amends
+// Go here to run any Sass map amends on Bootstrap Sass maps
+@import "./abstracts/map-amends";
+
+// Bootstrap main import
+@import "~bootstrap/scss/bootstrap";
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+:root{
+    --bs-body-font-family: 'Mulish', sans-serif;
+}
