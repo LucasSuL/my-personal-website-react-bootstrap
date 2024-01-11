@@ -10,7 +10,7 @@ export default function ExperienceCard({ company, position, website, startDate, 
                 <a href={`${website}`}
                     target="_blank"
                     rel="noreferrer"
-                    class="fw-bold fs-4 link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover"
+                    class="fw-bold text-header fs-4 link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover"
                 >
                     {company}
                 </a>

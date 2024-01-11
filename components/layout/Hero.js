@@ -5,20 +5,20 @@ export default function Hero(props) {
     return (
         <div class="container-fluid vh-100 cust-hero p-0 ">
             <Navbar />
-            <div class = "container" style={{ maxWidth: "1200px" }}>
+            <div class = "container" style={{ maxWidth: "1400px" }}>
                 <div
-                    class="container text-white d-flex flex-column  justify-content-between cust-hero-body"
+                    class="container m-0 p-0 text-white d-flex flex-column  justify-content-between cust-hero-body"
                 >
                     <div class="row"></div>
-                    <div class="row m-0">
-                        <p >I'm a</p>
-                        <h1>Graduate student who switched to studying computer science.</h1>
+                    <div class="row m-0 ">
+                        <p>I'm a</p>
+                        <h1 class = "fw-bold text-header fs-0">Graduate student who switched to <span class = "text-gold"> computer science.</span></h1>
                         <h3>Currently at</h3>
                         <p class="mt-3">Adelaide, Australia</p>
                     </div>
                     <div class="row"></div>
                 </div>
-                <div class="container d-flex justify-content-between w-50" >
+                <div class="container d-flex justify-content-evenly w-50" >
                     <a
                         href="https://www.linkedin.com/in/lucas-su-758b4b10a/"
                         target="blank"
