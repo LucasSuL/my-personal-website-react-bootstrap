@@ -44,7 +44,7 @@ export default function Articles() {
     )
 
     return (
-        <div class="container mt-2" id="articles" style={{ maxWidth: "1200px" }}>
+        <div class="container pt-4" id="articles" style={{ maxWidth: "1200px" }}>
             <h2 class="text-shorter fw-bold">Articles</h2>
             <h3 class="fs-4" style={{ color: "#555" }}>My latest articles</h3>
             <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">

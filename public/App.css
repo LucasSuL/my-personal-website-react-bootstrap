@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: var(--scroll-padding, 50px);
+}
 .cust-foot :hover {
     transform: rotate(-5deg);
     color: #c083fd;
@@ -13,9 +17,11 @@
 .cust-hero-body {
     height: 80vh
 }
-.fs-0{
+
+.fs-0 {
     font-size: 3rem;
 }
+
 .fs-7 {
     font-size: 0.9rem;
 }
@@ -28,16 +34,38 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.text-header{
+.text-header {
     font-family: 'Red Hat Text', sans-serif;
 }
 
-.navbar{
+.navbar {
     transform: none;
     transition: transform 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
 }
 
-.clamp-two-lines{
+.nav-item {
+    position: relative;
+}
+.nav-item a{
+    
+}
+
+.nav-item::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: white;
+    position: absolute;
+    left: 8px;
+    bottom: 5px;
+    transition: 0.3s;
+}
+
+.nav-item:hover::after {
+    width: 80%;
+}
+
+.clamp-two-lines {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: hidden;
@@ -202,5 +230,25 @@
 
     .tm-container::after {
         left: -8px;
+    }
+}
+
+@media (max-width:992px){
+    .nav-item{
+        width: fit-content;
+    }
+    .nav-item::after {
+        content: "";
+        width: 0%;
+        height: 2px;
+        background: white;
+        position: absolute;
+        left:auto;
+        bottom: 5px;
+        transition: 0.3s;
+    }
+    
+    .nav-item:hover::after {
+        width: 100%;
     }
 }

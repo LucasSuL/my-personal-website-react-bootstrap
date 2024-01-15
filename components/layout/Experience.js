@@ -2,7 +2,7 @@ import React from "react"
 import Data from "../../data.json"
 import ExperienceCard from "../elements/ExperienceCard"
 
-export default function Experience(props) {
+export default function Experience() {
     const experienceCard = Data.experience.map((value, index) => {
         return (
             <ExperienceCard
@@ -13,7 +13,7 @@ export default function Experience(props) {
     })
 
     return (
-        <div class="container py-2" id="experience" style={{ maxWidth: "1200px" }}>
+        <div class="container pt-4" id="experience" style={{ maxWidth: "1200px" }}>
             <h2 class="text-shorter fw-bold">Experience</h2>
             <div class="tm-main">
                 <div className="tm-header mb-2">

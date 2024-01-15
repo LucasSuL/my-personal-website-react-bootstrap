@@ -1,4 +1,5 @@
 import React from "react"
+
 import portrait from "../../public/images/lucassu.jpg"
 import Data from "../../data.json"
 import HobbyBadge from "../elements/HobbyBadge"
@@ -26,13 +27,24 @@ export default function About() {
             />
             <div class="container d-flex flex-column align-items-center cust-max">
                 <h3 class="fw-bold mb-3 ">Hello there! I'm pleased you discovered my profile.</h3>
-                <p class="fw-light fs-5 m-0">I have a background in urban planning, where I gained extensive experience working on various large-scale projects. Currently, I am pursuing a master's degree in computer science. By merging my insights from urban planning with my computer science skills, I aim to catalyze innovation and tackle challenges. </p>
+                <p class="fw-light fs-5 m-0">
+                    I have a background in urban planning, where I gained extensive experience working on various large-scale projects.
+                    <span><span><a href="#" class="text-light ms-1">Visit here</a></span> if you are interested in my portfolio as an Urban Planner.</span>
+                </p>
+                <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top">
+                    Tooltip on top
+                </button>
+                <p class="fw-light fs-5 m-0">
+                    Currently, I am pursuing a master's degree in computer science. By merging my insights from urban planning with my computer science skills, I aim to catalyze innovation and tackle challenges.
+                </p>
                 <p class="fs-5 mt-3">My goal is to become a :</p>
                 <div class="fs-4 mt-3 d-flex flex-column align-items-center text-header">
+                    <p class="m-0">Front End Developer</p>
                     <p class="m-0">Full Stack Developer</p>
-                    <p class="m-0">Business Analyst</p>
                     <p class="m-0">Product Manager</p>
                 </div>
+                <p class="fw-light fs-5 m-0"></p>
+
             </div>
             <div class="row row-cols-lg-5 g-2 fs-8 p-5 g-4">
                 {hobbies}

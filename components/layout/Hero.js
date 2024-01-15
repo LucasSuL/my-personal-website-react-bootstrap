@@ -1,13 +1,11 @@
 import React from "react"
-import Navbar from "../elements/Navbar";
 
-export default function Hero(props) {
+export default function Hero() {
     return (
-        <div class="container-fluid vh-100 cust-hero p-0 ">
-            <Navbar />
-            <div class = "container" style={{ maxWidth: "1400px" }}>
+        <div class="container-fluid vh-100 cust-hero p-0">
+            <div class = "container" style={{ maxWidth: "1400px",paddingTop:"90px" }}>
                 <div
-                    class="container m-0 p-0 text-white d-flex flex-column  justify-content-between cust-hero-body"
+                    class="container m-0 p-0 text-white d-flex flex-column justify-content-between cust-hero-body"
                 >
                     <div class="row"></div>
                     <div class="row m-0 ">
