@@ -46,9 +46,6 @@ html{
 .nav-item {
     position: relative;
 }
-.nav-item a{
-    
-}
 
 .nav-item::after {
     content: "";
