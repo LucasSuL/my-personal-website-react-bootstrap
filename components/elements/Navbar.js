@@ -2,10 +2,10 @@ import React from "react"
 
 export default function Navbar() {
     return (
-        <nav class="navbar fixed-top navbar-expand-lg bg-dark  p-2" data-bs-theme="dark"> 
+        <nav class="navbar fixed-top navbar-expand-lg bg-dark p-2" data-bs-theme="dark"> 
             <div class="container-fluid">
-                <a class="navbar-brand ps-3" href="#">
-                    <div class="h3 fw-bold text-header">Lucas Su</div>
+                <a class="navbar-brand ps-3 pt-2" href="#">
+                    <div class="h3 fw-bold text-header ">Lucas Su</div>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
