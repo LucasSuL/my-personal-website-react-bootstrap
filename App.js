@@ -1,7 +1,7 @@
 import React from "react"
 import './node_modules/bootstrap/dist/js/bootstrap.bundle.min.js'
+import './public/App.css'
 
-import Navbar from "./components/layout/Navbar";
 import Hero from "./components/layout/Hero"
 import About from "./components/layout/About"
 import Skills from "./components/layout/Skills"
@@ -12,7 +12,6 @@ import Footer from './components/layout/Footer'
 function App() {
     return (
         <div className='App'>
-            <Navbar />
             <Hero />
             <About />
             <Skills />

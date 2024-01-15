@@ -2,10 +2,10 @@ import React from "react"
 
 export default function ArticleCard({ title, description, date, url, image }) {
     return (
-        <div class="col p-2">
-            <div class="card shadow-sm bg-body-tertiary rounded h-100">
-                <div class="row p-3">
-                    <a class="col-10 align-self-center clamp-two-lines fw-bold text-header fs-5 lh-sm link-dark text-decoration-none" href={url} target="_blank" style={{ style: "none" }}>
+        <div class="col p-3">
+            <div class="row card shadow-sm bg-body-tertiary rounded h-100">
+                <div class="d-flex p-3">
+                    <a class="col-10 align-self-center clamp-two-lines fw-bold text-header fs-5 lh-sm link-dark text-decoration-none" href={url} target="_blank" >
                         {title}
                     </a>
                     <div class="col-2 align-self-center fs-6">

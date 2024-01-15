@@ -1,16 +1,18 @@
 import React from "react"
+import Navbar from "../elements/Navbar"
 
 export default function Hero() {
     return (
         <div class="container-fluid vh-100 cust-hero p-0">
-            <div class = "container" style={{ maxWidth: "1400px",paddingTop:"90px" }}>
+            <Navbar />
+            <div class="container " style={{ maxWidth: "1400px", paddingTop: "80px" }}>
                 <div
                     class="container m-0 p-0 text-white d-flex flex-column justify-content-between cust-hero-body"
                 >
                     <div class="row"></div>
                     <div class="row m-0 ">
                         <p>I'm a</p>
-                        <h1 class = "fw-bold text-header fs-0">Graduate student who switched to <span class = "text-gold"> computer science.</span></h1>
+                        <h1 class="fw-bold text-header fs-0">Graduate student who switched to <span class="text-gold"> computer science.</span></h1>
                         <h3>Currently at</h3>
                         <p class="mt-3">Adelaide, Australia</p>
                     </div>
