@@ -10,12 +10,12 @@ document.addEventListener('DOMContentLoaded', function () {
             var scrollPosition = window.scrollY;
             if (scrollPosition === 0) {
                 navElement.style.setProperty('background-color', 'transparent', 'important');
-                navElement.style.setProperty('transition', '0.3s', 'important');
+                navElement.style.setProperty('transition', '0.5s', 'important');
             } else {
-                navElement.style.backgroundColor = '#ffffff';
+                navElement.style.setProperty('background-color', '#212529', 'important');
             }
         });
 
-        
+
     }
 })
