@@ -2,6 +2,7 @@ html{
     scroll-behavior: smooth;
     scroll-padding-top: var(--scroll-padding, 50px);
 }
+
 .cust-foot :hover {
     transform: rotate(-5deg);
     color: #c083fd;

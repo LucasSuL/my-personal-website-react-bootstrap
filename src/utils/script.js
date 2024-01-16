@@ -26,37 +26,50 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Set the background color based on the navbar state
         if (isNavbarExpanded) {
-            navElement.style.backgroundColor = 'rgba(33, 37, 41, 0.8)'; // Change to desired color
+            navElement.style.backgroundColor = 'rgba(33, 37, 41, 0.95)'; // Change to desired color
         } else {
             // Set to transparent or any other color when the navbar is collapsed
-            const scrollPosition = window.scrollY;
-            navElement.style.setProperty('background-color', scrollPosition === 0 ? 'transparent' : '#212529');
+            // const scrollPosition = window.scrollY;
+            // navElement.style.setProperty('background-color', scrollPosition === 0 ? 'transparent' : '#212529');
         }
     });
+
+    // Listen for mouseleave event on the navbar
+    navElement.addEventListener('mouseleave', () => {
+        // simulateClick(navbarToggle);
+        // Collapse the navbar when the mouse leaves the expanded area
+        // navbarToggle.setAttribute('aria-expanded', 'false');
+        // Change the background color based on the value of aria-expanded
+        // updateNavbarBackgroundColor();
+    });
+
+    function simulateClick(element) {
+        const event = new MouseEvent('click', {
+            bubbles: true,
+            cancelable: true,
+            view: window
+        });
+        element.dispatchEvent(event);
+    }
 
 
     var navLinks = document.querySelectorAll('.navbar-nav .nav-link');
     var sections = document.querySelectorAll('section');
     var isScrollingDisabled = false;
 
-    // 添加点击事件监听器
     navLinks.forEach(function (link) {
         link.addEventListener('click', function () {
-            // 点击导航链接时禁用滚动事件监听器
             isScrollingDisabled = true;
 
-            // 移除所有导航链接的 'active' 类
             navLinks.forEach(function (innerLink) {
                 innerLink.classList.remove('active');
             });
 
-            // 添加 'active' 类到被点击的导航链接
             link.classList.add('active');
 
-            // 获取被点击链接对应的部分的索引
             var sectionIndex = Array.from(navLinks).indexOf(link);
 
-            // 滚动到对应的部分
+            // scroll to the corresponding part
             sections[sectionIndex].scrollIntoView({ behavior: 'smooth' });
 
             // 启用滚动事件监听器，延迟 500 毫秒以防止滚动事件立即触发
