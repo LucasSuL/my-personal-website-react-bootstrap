@@ -16,47 +16,58 @@ document.addEventListener('DOMContentLoaded', function () {
         navElement.style.setProperty('transition', '0.5s');
     });
 
-    // add click event listener to each nav link
+
     var navLinks = document.querySelectorAll('.navbar-nav .nav-link');
     var sections = document.querySelectorAll('section');
+    var isScrollingDisabled = false;
 
-    /*
-        // If do not need scroll function, simply use the following part and comment out the last part.
+    // 添加点击事件监听器
+    navLinks.forEach(function (link) {
+        link.addEventListener('click', function () {
+            // 点击导航链接时禁用滚动事件监听器
+            isScrollingDisabled = true;
 
-        navLinks.forEach(link => {
-            link.addEventListener('click', function () {
-                navLinks.forEach(function (innerLink) {
-                    innerLink.classList.remove('active');
-                    innerLink.setAttribute("aria-current", null); 
-                });
-
-                link.classList.add('active');
-                link.setAttribute("aria-current", "page");
+            // 移除所有导航链接的 'active' 类
+            navLinks.forEach(function (innerLink) {
+                innerLink.classList.remove('active');
             });
-        });
-    */
 
+            // 添加 'active' 类到被点击的导航链接
+            link.classList.add('active');
 
-    // function for scroll navbar indicator
-    window.addEventListener('scroll', function () {
-        const scrollOffset = 300;
-        var currentScroll = window.scrollY;
+            // 获取被点击链接对应的部分的索引
+            var sectionIndex = Array.from(navLinks).indexOf(link);
 
-        sections.forEach(function (section, index) {
-            var sectionTop = section.offsetTop - scrollOffset;   // make offest
-            var sectionBottom = sectionTop + section.offsetHeight;
+            // 滚动到对应的部分
+            sections[sectionIndex].scrollIntoView({ behavior: 'smooth' });
 
-            if (currentScroll >= sectionTop && currentScroll < sectionBottom) {
-                navLinks.forEach(function (link) {
-                    link.classList.remove('active');
-                    link.setAttribute("aria-current", null);
-                });
-
-                navLinks[index].classList.add('active');
-                navLinks[index].setAttribute("aria-current", "page");
-            }
+            // 启用滚动事件监听器，延迟 500 毫秒以防止滚动事件立即触发
+            setTimeout(function () {
+                isScrollingDisabled = false;
+            }, 800);
         });
     });
 
-    // to-do
+    // 添加滚动事件监听器
+    window.addEventListener('scroll', function () {
+        if (!isScrollingDisabled) {
+            var currentScroll = window.scrollY;
+
+            sections.forEach(function (section, index) {
+                var sectionTop = section.offsetTop - 300; // 考虑到导航栏的高度
+                var sectionBottom = sectionTop + section.offsetHeight;
+
+                if (currentScroll >= sectionTop && currentScroll < sectionBottom) {
+                    // 设置当前可见的部分对应的导航链接为 'active'
+                    navLinks.forEach(function (innerLink) {
+                        innerLink.classList.remove('active');
+                    });
+
+                    navLinks[index].classList.add('active');
+                }
+            });
+        }
+    });
+
+
 })
