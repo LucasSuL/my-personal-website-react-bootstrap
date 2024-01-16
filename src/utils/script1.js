@@ -21,16 +21,22 @@ document.addEventListener('DOMContentLoaded', function () {
     // handle navbar toggle button click
     navbarToggle.addEventListener('click', () => {
         isNavbarExpanded = navbarToggle.getAttribute('aria-expanded') === 'true';
-        navElement.style.setProperty('background-color', isNavbarExpanded ?  '#212529' : 'transparent');
+        if (isNavbarExpanded) {
+            navElement.style.setProperty('background-color', '#212529')
+        } else {
+            const scrollPosition = window.scrollY;
+            navElement.style.setProperty('background-color', scrollPosition === 0 ? 'transparent' : '#212529');
+        }
     });
 
     // Listen for mouseleave event on the navbar
     navElement.addEventListener('mouseleave', () => {
-        // simulateClick(navbarToggle);
-        // Collapse the navbar when the mouse leaves the expanded area
-        // navbarToggle.setAttribute('aria-expanded', 'false');
-        // Change the background color based on the value of aria-expanded
-        // updateNavbarBackgroundColor();
+        isNavbarExpanded = navbarToggle.getAttribute('aria-expanded') === 'true';
+        if (isNavbarExpanded) {
+            simulateClick(navbarToggle);
+            const scrollPosition = window.scrollY;
+            navElement.style.setProperty('background-color', scrollPosition === 0 ? 'transparent' : '#212529');
+        }
     });
 
     function simulateClick(element) {
