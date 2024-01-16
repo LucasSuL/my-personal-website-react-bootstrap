@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const navElement = document.querySelector('nav');
+    const navbarToggle = document.querySelector('.navbar-toggler');
 
     // set anchor offset
     const navHeight = navElement.offsetHeight;
@@ -7,13 +8,30 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // set transparent navbar if window is on the top
     window.addEventListener('scroll', () => {
+        const isNavbarExpanded = navbarToggle.getAttribute('aria-expanded') === 'true';
         var scrollPosition = window.scrollY;
-        if (scrollPosition === 0) {
+
+        if (!isNavbarExpanded && scrollPosition === 0) { // make sure navbar is not expanded
             navElement.style.setProperty('background-color', 'transparent');
         } else {
             navElement.style.setProperty('background-color', '#212529');
         }
         navElement.style.setProperty('transition', '0.5s');
+    });
+
+    // handle navbar toggle button click
+    navbarToggle.addEventListener('click', () => {
+        // Check if the navbar is expanded or collapsed
+        const isNavbarExpanded = navbarToggle.getAttribute('aria-expanded') === 'true';
+
+        // Set the background color based on the navbar state
+        if (isNavbarExpanded) {
+            navElement.style.setProperty('background-color', '#212529'); // Change to desired color
+        } else {
+            // Set to transparent or any other color when the navbar is collapsed
+            const scrollPosition = window.scrollY;
+            navElement.style.setProperty('background-color', scrollPosition === 0 ? 'transparent' : '#212529');
+        }
     });
 
 
@@ -68,6 +86,4 @@ document.addEventListener('DOMContentLoaded', function () {
             });
         }
     });
-
-
 })
