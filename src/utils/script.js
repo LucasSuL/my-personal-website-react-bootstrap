@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (!isNavbarExpanded && scrollPosition === 0) { // make sure navbar is not expanded
             navElement.style.setProperty('background-color', 'transparent');
         } else {
-            navElement.style.setProperty('background-color', '#212529');
+            navElement.style.backgroundColor = 'rgba(33, 37, 41)';
         }
         navElement.style.setProperty('transition', '0.5s');
     });
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Set the background color based on the navbar state
         if (isNavbarExpanded) {
-            navElement.style.setProperty('background-color', '#212529'); // Change to desired color
+            navElement.style.backgroundColor = 'rgba(33, 37, 41, 0.8)'; // Change to desired color
         } else {
             // Set to transparent or any other color when the navbar is collapsed
             const scrollPosition = window.scrollY;
