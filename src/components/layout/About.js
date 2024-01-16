@@ -1,6 +1,6 @@
 import React from "react"
 
-import portrait from "../../public/images/lucassu.jpg"
+import portrait from "../../../public/images/lucassu.jpg"
 import Data from "../../data.json"
 import HobbyBadge from "../elements/HobbyBadge"
 

@@ -8,7 +8,7 @@ html{
 }
 
 .cust-hero {
-    background-image: url(/public/images/cover10.JPG);
+    background-image: url(../public/images/cover10.JPG);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;

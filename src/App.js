@@ -1,6 +1,6 @@
 import React from "react"
-import './node_modules/bootstrap/dist/js/bootstrap.bundle.min.js'
-import './public/App.css'
+import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js'
+import '../public/App.css'
 
 import Hero from "./components/layout/Hero"
 import About from "./components/layout/About"
