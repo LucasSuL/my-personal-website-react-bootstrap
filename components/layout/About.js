@@ -16,7 +16,7 @@ export default function About() {
     })
 
     return (
-        <div class="container-fluid d-flex flex-column align-items-center text-bg-success p-4" id="about">
+        <section class="container-fluid d-flex flex-column align-items-center text-bg-success p-4" id="about">
             <img
                 width="180px"
                 height="180px"
@@ -50,6 +50,6 @@ export default function About() {
                 {hobbies}
             </div>
 
-        </div>
+        </section>
     );
 }

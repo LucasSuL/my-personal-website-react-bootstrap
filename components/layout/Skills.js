@@ -10,11 +10,11 @@ export default function Skills() {
         />
     })
     return (
-        <div class="container pt-4" id="skills" style={{ maxWidth: "1200px" }}>
+        <section class="container pt-4" id="skills" style={{ maxWidth: "1200px" }}>
             <h2 class="text-shorter fw-bold">Skills</h2>
             <div class="row">
                 {skillCard}
             </div>
-        </div>
+        </section>
     );
 }

@@ -3,7 +3,7 @@ import Navbar from "../elements/Navbar"
 
 export default function Hero() {
     return (
-        <div class="container-fluid vh-100 cust-hero p-0">
+        <section class="container-fluid vh-100 cust-hero p-0" >
             <Navbar />
             <div class="container " style={{ maxWidth: "1400px", paddingTop: "80px" }}>
                 <div
@@ -52,6 +52,6 @@ export default function Hero() {
                 </div>
             </div>
 
-        </div>
+        </section>
     );
 }

@@ -13,7 +13,7 @@ export default function Experience() {
     })
 
     return (
-        <div class="container pt-4" id="experience" style={{ maxWidth: "1200px" }}>
+        <section class="container pt-4" id="experience" style={{ maxWidth: "1200px" }}>
             <h2 class="text-shorter fw-bold">Experience</h2>
             <div class="tm-main">
                 <div className="tm-header mb-2">
@@ -25,6 +25,6 @@ export default function Experience() {
                     {experienceCard}
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
