@@ -8,30 +8,30 @@ export default function Footer() {
                 <div class="row">
                     <div class="col-6 col-md-2 mb-3">
                         <h5>Nav-link</h5>
-                        <ul class="nav flex-column">
-                            <li class="mb-2"><a href="#" class="nav-link p-0 text-secondary text-light-hover footer-item">Home</a></li>
-                            <li class="mb-2"><a href="#about" class="nav-link p-0 text-secondary footer-item">About me</a></li>
-                            <li class="mb-2"><a href="#skills" class="nav-link p-0 text-secondary footer-item">Skills</a></li>
-                            <li class="mb-2"><a href="#experience" class="nav-link p-0 text-secondary footer-item">Experience</a></li>
-                            <li class="mb-2"><a href="#articles" class="nav-link p-0 text-secondary footer-item">Articles</a></li>
+                        <ul class="flex-column list-unstyled">
+                            <li class="mb-2"><a href="#" class=" p-0 text-secondary text-decoration-none">Home</a></li>
+                            <li class="mb-2"><a href="#about" class="p-0 text-secondary text-decoration-none">About me</a></li>
+                            <li class="mb-2"><a href="#skills" class="p-0 text-secondary text-decoration-none">Skills</a></li>
+                            <li class="mb-2"><a href="#experience" class="p-0 text-secondary text-decoration-none">Experience</a></li>
+                            <li class="mb-2"><a href="#articles" class="p-0 text-secondary text-decoration-none">Articles</a></li>
                         </ul>
                     </div>
 
                     <div class="col-6 col-md-2 mb-3">
                         <h5>About</h5>
-                        <ul class="nav flex-column">
-                            <li class="mb-2"><a href="https://www.linkedin.com/in/lucas-su-758b4b10a/" class="nav-link p-0 text-secondary footer-item" target="_blank">LinkedIn <i class="bi bi-arrow-up-right fs-8"></i></a></li>
-                            <li class="mb-2"><a href="https://github.com/LucasSuL" class="nav-link p-0 text-secondary footer-item" target="_blank">GitHub <i class="bi bi-arrow-up-right fs-8"></i></a></li>
-                            <li class="mb-2"><a href="https://dev.to/lucassul" class="nav-link p-0 text-secondary footer-item" target="_blank">Dev Community <i class="bi bi-arrow-up-right fs-8"></i></a></li>
-                            <li class="mb-2"><a href="https://www.strava.com/athletes/84823175" class="nav-link p-0 text-secondary footer-item" target="_blank">Strava <i class="bi bi-arrow-up-right fs-8"></i></a></li>
+                        <ul class="flex-column list-unstyled">
+                            <li class="mb-2"><a href="https://www.linkedin.com/in/lucas-su-758b4b10a/" class="p-0 text-secondary text-decoration-none" target="_blank">LinkedIn <i class="bi bi-arrow-up-right fs-8"></i></a></li>
+                            <li class="mb-2"><a href="https://github.com/LucasSuL" class="p-0 text-secondary text-decoration-none" target="_blank">GitHub <i class="bi bi-arrow-up-right fs-8"></i></a></li>
+                            <li class="mb-2"><a href="https://dev.to/lucassul" class="p-0 text-secondary text-decoration-none" target="_blank">Dev Community <i class="bi bi-arrow-up-right fs-8"></i></a></li>
+                            <li class="mb-2"><a href="https://www.strava.com/athletes/84823175" class="p-0 text-secondary text-decoration-none" target="_blank">Strava <i class="bi bi-arrow-up-right fs-8"></i></a></li>
                         </ul>
                     </div>
 
                     <div class="col-6 col-md-2 mb-3">
                         <h5 id="downloads">Downloads</h5>
-                        <ul class="nav flex-column">
-                            <li class="footer-item mb-2"><a href="#" class="nav-link p-0 text-secondary footer-item">My Resume <span><i class="bi bi-download"></i></span></a></li>
-                            <li class="footer-item mb-2"><a href="#" class="nav-link p-0 text-secondary footer-item">Urban Planner Portfolio <span><i class="bi bi-download"></i></span></a></li>
+                        <ul class="flex-column list-unstyled">
+                            <li class="mb-2"><a href="#" class="p-0 text-secondary text-decoration-none">My Resume <span><i class="bi bi-download"></i></span></a></li>
+                            <li class="mb-2"><a href="#" class="p-0 text-secondary text-decoration-none">Urban Planner Portfolio <span><i class="bi bi-download"></i></span></a></li>
                         </ul>
                     </div>
 

@@ -1,3 +1,15 @@
-.footer-item:hover{
-    color:white !important;
+li a:hover {
+    color: white !important;
+}
+
+li a:hover .bi {
+    transform: translateX(10px) !important;
+    /* Adjust the value based on your preference */
+    color: red;
+    scale: 1.1;
+}   
+
+.cust-foot :hover {
+    transform: rotate(-5deg);
+    color: #c083fd;
 }
