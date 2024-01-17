@@ -48,7 +48,7 @@ export default function Footer() {
                     </div>
                 </div>
 
-                <div class="d-flex flex-column text-center pt-4 mt-4 border-top">
+                <div class="d-flex flex-column text-center pt-4 mt-4 border-top border-secondary">
                     <p>
                         Built at <i class="fas fa-moon" /> by{" "}
                         <a
