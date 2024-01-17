@@ -18,10 +18,10 @@ export default function Hero() {
                     </div>
                     <div class="row"></div>
                 </div>
-                <div class="container d-flex justify-content-evenly w-50" >
+                <div class="container d-flex justify-content-evenly w-75" >
                     <a
                         href="https://www.linkedin.com/in/lucas-su-758b4b10a/"
-                        target="blank"
+                        target="_blank"
                         title="LinkedIn"
                         style={{ color: "white" }}
                     >
@@ -31,7 +31,7 @@ export default function Hero() {
                     </a>
                     <a
                         href="https://github.com/LucasSuL"
-                        target="blank"
+                        target="_blank"
                         title="GitHub"
                         style={{ color: "white" }}
                     >
@@ -40,8 +40,18 @@ export default function Hero() {
                         </span>
                     </a>
                     <a
+                        href="https://dev.to/lucassul"
+                        target="_blank"
+                        title="Strava"
+                        style={{ color: "white" }}
+                    >
+                        <span>
+                            <i className="fab fa-2x fa-dev"></i>
+                        </span>
+                    </a>
+                    <a
                         href="https://www.strava.com/athletes/84823175"
-                        target="blank"
+                        target="_blank"
                         title="Strava"
                         style={{ color: "white" }}
                     >
