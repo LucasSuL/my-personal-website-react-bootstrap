@@ -29,11 +29,9 @@ export default function About() {
                 <h3 class="fw-bold mb-3 ">Hello there! I'm pleased you discovered my profile.</h3>
                 <p class="fw-light fs-5 m-0">
                     I have a background in urban planning, where I gained extensive experience working on various large-scale projects.
-                    <span><span><a href="#" class="text-light ms-1">Visit here</a></span> if you are interested in my portfolio as an Urban Planner.</span>
+                    <span>Visit the<span><a href="#downloads" class="text-light ms-1">download section</a></span> if you are interested in my portfolio as an Urban Planner.</span>
                 </p>
-                <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top">
-                    Tooltip on top
-                </button>
+    
                 <p class="fw-light fs-5 m-0">
                     Currently, I am pursuing a master's degree in computer science. By merging my insights from urban planning with my computer science skills, I aim to catalyze innovation and tackle challenges.
                 </p>
