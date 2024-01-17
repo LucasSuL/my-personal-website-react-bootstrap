@@ -18,7 +18,7 @@ export default function Footer() {
                     </div>
 
                     <div class="col-6 col-md-2 mb-3">
-                        <h5>About</h5>
+                        <h5>Personal</h5>
                         <ul class="nav flex-column">
                             <li class="footer-item mb-2"><a href="https://www.linkedin.com/in/lucas-su-758b4b10a/" class="nav-link p-0 text-secondary" target="_blank">LinkedIn</a></li>
                             <li class="footer-item mb-2"><a href="#https://github.com/LucasSuL" class="nav-link p-0 text-secondary" target="_blank">GitHub</a></li>
@@ -30,24 +30,8 @@ export default function Footer() {
                     <div class="col-6 col-md-2 mb-3">
                         <h5>Downloads</h5>
                         <ul class="nav flex-column">
-                            <li class="footer-item mb-2">
-                                <a href="#" class="text-decoration-none text-secondary">
-                                    My Resume{" "}
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
-                                        <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"></path>
-                                        <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"></path>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li class="footer-item mb-2">
-                                <a href="#" class="text-decoration-none text-secondary">
-                                    Urban Planner Portfolio{" "}
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
-                                        <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"></path>
-                                        <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"></path>
-                                    </svg>
-                                </a>
-                            </li>
+                            <li class="footer-item mb-2"><a href="#" class="nav-link p-0 text-secondary">My Resume <span><i class="bi bi-download"></i></span></a></li>
+                            <li class="footer-item mb-2"><a href="#" class="nav-link p-0 text-secondary">Urban Planner Portfolio <span><i class="bi bi-download"></i></span></a></li>
                         </ul>
                     </div>
 
