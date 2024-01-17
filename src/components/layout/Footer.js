@@ -21,9 +21,9 @@ export default function Footer() {
                         <h5>About</h5>
                         <ul class="nav flex-column">
                             <li class="mb-2"><a href="https://www.linkedin.com/in/lucas-su-758b4b10a/" class="nav-link p-0 text-secondary footer-item" target="_blank">LinkedIn <i class="bi bi-arrow-up-right fs-8"></i></a></li>
-                            <li class="mb-2"><a href="#https://github.com/LucasSuL" class="nav-link p-0 text-secondary footer-item" target="_blank">GitHub <i class="bi bi-arrow-up-right fs-8"></i></a></li>
-                            <li class="mb-2"><a href="#https://dev.to/lucassul" class="nav-link p-0 text-secondary footer-item" target="_blank">Dev Community <i class="bi bi-arrow-up-right fs-8"></i></a></li>
-                            <li class="mb-2"><a href="#https://www.strava.com/athletes/84823175" class="nav-link p-0 text-secondary footer-item" target="_blank">Strava <i class="bi bi-arrow-up-right fs-8"></i></a></li>
+                            <li class="mb-2"><a href="https://github.com/LucasSuL" class="nav-link p-0 text-secondary footer-item" target="_blank">GitHub <i class="bi bi-arrow-up-right fs-8"></i></a></li>
+                            <li class="mb-2"><a href="https://dev.to/lucassul" class="nav-link p-0 text-secondary footer-item" target="_blank">Dev Community <i class="bi bi-arrow-up-right fs-8"></i></a></li>
+                            <li class="mb-2"><a href="https://www.strava.com/athletes/84823175" class="nav-link p-0 text-secondary footer-item" target="_blank">Strava <i class="bi bi-arrow-up-right fs-8"></i></a></li>
                         </ul>
                     </div>
 
@@ -63,7 +63,6 @@ export default function Footer() {
                                 <i class="fa-brands fa-bootstrap fa-2xl ms-2 text-white fs-3"></i>
                             </a>
                         </div>
-
                     </div>
                 </div>
             </footer>
