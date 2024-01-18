@@ -1,3 +1,6 @@
+footer{
+    animation: fade-down 0.5s 0.4s backwards;
+}
 .bi{
     display: inline-block;
  }

@@ -1,5 +1,9 @@
 import React from "react"
 import "../../styles/footer.css"
+import resume from "../../../public/Resume Jan 2024.pdf"
+import transcript from "../../../public/Transcript Jan 2024.pdf"
+import portfolio from "../../../public/Portfolio_Su Lijie 2022.2_compressed.pdf"
+import pianoComposition from "../../../public/Starry Night（composed as an amateur in high school).pdf"
 
 export default function Footer() {
     return (
@@ -30,9 +34,10 @@ export default function Footer() {
                     <div class="col-6 col-md-2 mb-3">
                         <h5 id="downloads">Downloads</h5>
                         <ul class="flex-column list-unstyled">
-                            <li class="mb-2"><a href="#" class="p-0 text-secondary text-decoration-none">My Resume <span><i class="bi bi-download"></i></span></a></li>
-                            <li class="mb-2"><a href="#" class="p-0 text-secondary text-decoration-none">Urban Planner Portfolio <span><i class="bi bi-download"></i></span></a></li>
-                            <li class="mb-2"><a href="#" class="p-0 text-secondary text-decoration-none">A Piano Sheet <span><i class="bi bi-download"></i></span></a></li>
+                            <li class="mb-2"><a href={resume} download class="p-0 text-secondary text-decoration-none">My Resume <i class="bi bi-download"></i></a></li>
+                            <li class="mb-2"><a href={transcript} download class="p-0 text-secondary text-decoration-none">Graduate Transcript <i class="bi bi-download"></i></a></li>
+                            <li class="mb-2"><a href={portfolio} download class="p-0 text-secondary text-decoration-none">Urban Planner Portfolio <i class="bi bi-download"></i></a></li>
+                            <li class="mb-2"><a href={pianoComposition} download class="p-0 text-secondary text-decoration-none">My Piano Composition <i class="bi bi-download"></i></a></li>
                         </ul>
                     </div>
 
