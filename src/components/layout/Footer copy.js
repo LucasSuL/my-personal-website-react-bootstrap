@@ -42,16 +42,19 @@ export default function Footer() {
                     </div>
 
                     <div class="col-md-5 offset-md-1 mb-3">
-                        <form name="submit-to-google-sheet">
-                            <div class="mb-2">
-                                <label for="exampleFormControlInput1" class="form-label visually-hidden">Email address</label>
-                                <input type="email" class="form-control" name="Name" id="exampleFormControlInput1" placeholder="Email address" />
+                        <form name = "submit-to-google-sheet">
+                            <h5 class="mb-2">Leave a message</h5>
+                            <div class="d-flex flex-column w-100 gap-2" style={{ maxWidth: "400px" }}>
+                                <div class="mb-2">
+                                    <label for="exampleFormControlInput1" class="form-label visually-hidden">Email address</label>
+                                    <input type="email" class="form-control" name="Name" id="exampleFormControlInput1" placeholder="Email address"/>
+                                </div>
+                                <div class="mb-2">
+                                    <label for="exampleFormControlTextarea1" class="form-label visually-hidden">Example textarea</label>
+                                    <textarea class="form-control" name="Message" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                                <button class="btn btn-primary" type="button">Submit</button>
                             </div>
-                            <div class="mb-2">
-                                <label for="exampleFormControlTextarea1" class="form-label visually-hidden">Example textarea</label>
-                                <textarea class="form-control" name="Message" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            </div>
-                            <button class="btn btn-primary" type="button">Submit</button>
                         </form>
                     </div>
                 </div>

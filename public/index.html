@@ -17,7 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
     <script defer src="https://use.fontawesome.com/releases/v6.1.2/js/all.js"></script>
-    
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="../src/assets/scss/main.scss">
 
@@ -26,8 +26,18 @@
 <body>
     <div id="root"></div>
     <script src="../src/index.js"></script>
-    <!-- <script src="utils/script.js"></script> -->
-    <script src="../src/utils/script1.js"></script>
+    <script src="../src/main.js"></script>
+    <!-- <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwHEK6y9AmSg7149c4LnqNfQxHGq-HVLiY88YrkKPsHY-UJ5RIB3cWkrRVej0IV6bE/exec'
+        const form = document.forms['submit-to-google-sheet']
+        console.log(form);
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script> -->
 </body>
 
 </html>
