@@ -1,7 +1,7 @@
 import React from "react"
 import Data from "../../data.json"
 import ExperienceCard from "../elements/ExperienceCard"
-import "../../../public/timeline.css"
+import "../../styles/timeline.css"
 
 export default function Experience() {
     const experienceCard = Data.experience.map((value, index) => {

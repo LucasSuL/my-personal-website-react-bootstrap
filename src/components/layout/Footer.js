@@ -1,5 +1,5 @@
 import React from "react"
-import "../../../public/footer.css"
+import "../../styles/footer.css"
 
 export default function Footer() {
     return (
@@ -32,6 +32,7 @@ export default function Footer() {
                         <ul class="flex-column list-unstyled">
                             <li class="mb-2"><a href="#" class="p-0 text-secondary text-decoration-none">My Resume <span><i class="bi bi-download"></i></span></a></li>
                             <li class="mb-2"><a href="#" class="p-0 text-secondary text-decoration-none">Urban Planner Portfolio <span><i class="bi bi-download"></i></span></a></li>
+                            <li class="mb-2"><a href="#" class="p-0 text-secondary text-decoration-none">A Piano Sheet <span><i class="bi bi-download"></i></span></a></li>
                         </ul>
                     </div>
 

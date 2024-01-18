@@ -1,0 +1,49 @@
+.nav-item {
+    position: relative;
+}
+
+.nav-item::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: white;
+    position: absolute;
+    left: 10%;
+    bottom: 5px;
+    transition: 0.3s;
+}
+
+.nav-item:hover::after {
+    width: 80%;
+}
+
+nav .active::after {
+    color: white;
+    content: "";
+    width: 80%;
+    height: 2px;
+    background: white;
+    position: absolute;
+    left: 10%;
+    bottom: 5px;
+    transition: 0.3s;
+}
+
+@media (max-width:992px) {
+    .nav-item {
+        width: fit-content;
+    }
+
+    .nav-item::after {
+        left: 0px;
+    }
+
+    .nav-item:hover::after {
+        width: 100%;
+    }
+
+    nav .active::after {
+        left: 0px;
+        width: 100%;
+    }
+}

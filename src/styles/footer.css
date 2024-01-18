@@ -1,0 +1,16 @@
+.bi{
+    display: inline-block;
+ }
+ 
+ li a:hover {
+     color: white !important;
+ }
+ 
+ li a:hover .bi {
+     transform: translateX(5px) !important; 
+     transition:0.3s;
+ }
+.cust-foot :hover {
+    transform: rotate(-5deg);
+    color: #c083fd;
+}
