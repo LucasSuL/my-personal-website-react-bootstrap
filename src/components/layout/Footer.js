@@ -10,7 +10,7 @@ export default function Footer() {
         <div class="container-fluid text-bg-dark mt-5 d-flex justify-content-center">
             <footer class="col container py-5" style={{ maxWidth: "1200px" }}>
                 <div class="row">
-                    <div class="col-6 col-md-2 mb-3">
+                    <div class="col-sm-4 col-md-2 mb-3">
                         <h5>Nav-link</h5>
                         <ul class="flex-column list-unstyled">
                             <li class="mb-2"><a href="#" class=" p-0 text-secondary text-decoration-none">Home</a></li>
@@ -21,7 +21,7 @@ export default function Footer() {
                         </ul>
                     </div>
 
-                    <div class="col-6 col-md-2 mb-3">
+                    <div class="col-sm-4 col-md-2 mb-3">
                         <h5>About</h5>
                         <ul class="flex-column list-unstyled">
                             <li class="mb-2"><a href="https://www.linkedin.com/in/lucas-su-758b4b10a/" class="p-0 text-secondary text-decoration-none" target="_blank">LinkedIn <i class="bi bi-arrow-up-right fs-8"></i></a></li>
@@ -31,7 +31,7 @@ export default function Footer() {
                         </ul>
                     </div>
 
-                    <div class="col-6 col-md-2 mb-3">
+                    <div class="col-sm-4 col-md-3 mb-3">
                         <h5 id="downloads">Downloads</h5>
                         <ul class="flex-column list-unstyled">
                             <li class="mb-2"><a href={resume} download class="p-0 text-secondary text-decoration-none">My Resume <i class="bi bi-download"></i></a></li>
@@ -41,7 +41,7 @@ export default function Footer() {
                         </ul>
                     </div>
 
-                    <div class="col-md-5 offset-md-1 mb-3">
+                    <div class="col-md-4 offset-md-1 mb-3">
                         <form name="submit-to-google-sheet">
                             <h5 class="mb-2">Leave a message</h5>
                             <div class="d-flex flex-column w-100 gap-2" style={{ maxWidth: "400px" }}>
