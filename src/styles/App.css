@@ -4,17 +4,6 @@ html{
 }
 
 
-.cust-hero {
-    background-image: url(../../public/images/cover10.JPG);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-.cust-hero-body {
-    height: 80vh
-}
-
 .fs-0 {
     font-size: 3rem;
 }

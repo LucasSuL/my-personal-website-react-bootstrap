@@ -1,5 +1,6 @@
 import React from "react"
 import Navbar from "../elements/Navbar"
+import "../../styles/hero.css"
 
 export default function Hero() {
     return (
@@ -23,6 +24,7 @@ export default function Hero() {
                         href="https://www.linkedin.com/in/lucas-su-758b4b10a/"
                         target="_blank"
                         title="LinkedIn"
+                        class = "hero-icon"
                         style={{ color: "white" }}
                     >
                         <span>
@@ -33,6 +35,7 @@ export default function Hero() {
                         href="https://github.com/LucasSuL"
                         target="_blank"
                         title="GitHub"
+                        class = "hero-icon"
                         style={{ color: "white" }}
                     >
                         <span>
@@ -42,7 +45,8 @@ export default function Hero() {
                     <a
                         href="https://dev.to/lucassul"
                         target="_blank"
-                        title="Strava"
+                        title="Dev"
+                        class = "hero-icon"
                         style={{ color: "white" }}
                     >
                         <span>
@@ -53,6 +57,7 @@ export default function Hero() {
                         href="https://www.strava.com/athletes/84823175"
                         target="_blank"
                         title="Strava"
+                        class = "hero-icon"
                         style={{ color: "white" }}
                     >
                         <span>

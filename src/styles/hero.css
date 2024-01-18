@@ -1,0 +1,23 @@
+.cust-hero {
+    background-image: url(../../public/images/cover10.JPG);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.cust-hero-body {
+    height: 80vh
+}
+
+.hero-icon {
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.hero-icon:hover {
+    color: rgb(211, 211, 211) !important;
+    transform: translateY(-5px);
+}
+
+.hero-icon:not(:hover) {
+    transform: translateY(0);
+}

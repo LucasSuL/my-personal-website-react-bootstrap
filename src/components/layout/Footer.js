@@ -64,11 +64,9 @@ export default function Footer() {
                     </p>
                     <div class="d-flex justify-content-center align-items-center mb-4 ">
                         <span class=" text-secondary text-s-2">Made with</span>
-                        <div class="cust-foot">
-                            <a href="https://getbootstrap.com/" target="_blank" class="text-decoration-none">
-                                <i class="fa-brands fa-bootstrap fa-2xl ms-2 text-white fs-3"></i>
-                            </a>
-                        </div>
+                        <a href="https://getbootstrap.com/" target="_blank" class="cust-foot">
+                            <span><i class="fa-brands fa-bootstrap fa-2xl ms-2 text-white fs-3"></i></span>
+                        </a>
                     </div>
                 </div>
             </footer>
