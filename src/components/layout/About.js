@@ -25,8 +25,8 @@ export default function About() {
                 class="rounded-circle my-3 border border-success-subtle border-4 shadow"
                 onError={(e) => { e.target.onerror = null; e.target.src = Resume.basics.x_pictureFallback }}
             />
-            <div class="container d-flex flex-column align-items-center cust-max">
-                <h3 class="fw-bold mb-3 ">Hello there! I'm pleased you discovered my profile.</h3>
+            <div class="container d-flex flex-column align-items-center">
+                <h3 class="fw-bold mb-3 text-center">Hello there! I'm pleased you discovered my profile.</h3>
                 <p class="fw-light fs-5 m-0">
                     I have a background in urban planning, where I gained extensive experience working on various large-scale projects.
                     <span> Visit the<span><a href="#downloads" class="text-light ms-1 fw-bold link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover">download section</a></span> if you are interested in my portfolio as an Urban Planner.</span>
