@@ -10,7 +10,7 @@ export default function Footer() {
         <div class="container-fluid text-bg-dark mt-5 d-flex justify-content-center">
             <footer class="col container py-5" style={{ maxWidth: "1200px" }}>
                 <div class="row">
-                    <div class="col-sm-4 col-md-2 mb-3">
+                    <div class="col-6 col-sm-4 col-md-2 mb-3">
                         <h5>Nav-link</h5>
                         <ul class="flex-column list-unstyled">
                             <li class="mb-2"><a href="#" class=" p-0 text-secondary text-decoration-none">Home</a></li>
@@ -22,7 +22,7 @@ export default function Footer() {
                     </div>
 
 
-                    <div class="col-sm-4 col-md-2 mb-3">
+                    <div class="col-6 col-sm-4 col-md-2 mb-3">
                         <h5>About</h5>
                         <ul class="flex-column list-unstyled">
                             <li class="mb-2"><a href="https://www.linkedin.com/in/lucas-su-758b4b10a/" class="p-0 text-secondary text-decoration-none" target="_blank">LinkedIn <i class="bi bi-arrow-up-right fs-8"></i></a></li>
@@ -58,15 +58,15 @@ export default function Footer() {
                             </div>
                         </form>
 
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal fade text-dark" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Thank you for reaching out!</h1>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        ...
+                                        I will respond to you as soon as possible.
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>

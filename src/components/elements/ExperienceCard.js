@@ -16,7 +16,7 @@ export default function ExperienceCard({ company, position, website, startDate, 
                 </a>
             </div>
 
-            <h2 class="fs-7">{position}</h2>
+            <h2 class="fs-6">{position}</h2>
             <p class="text-secondary text-m fs-7">{summary}</p>
             <span class="circle"></span>
             <span class="date fs-8 p-1 px-2 text-light rounded-pill"> {formattedDateStr}</span>
