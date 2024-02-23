@@ -1,35 +1,31 @@
-html{
-    scroll-behavior: smooth;
-    scroll-padding-top: var(--scroll-padding, 50px);
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--scroll-padding, 50px);
 }
 
-
 .fs-0 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 .fs-7 {
-    font-size: 0.9rem;
+  font-size: 0.9rem;
 }
 
 .fs-8 {
-    font-size: 0.8rem;
+  font-size: 0.8rem;
 }
 
 .text-shorter {
-    font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .text-header {
-    font-family: 'Red Hat Text', sans-serif;
+  font-family: "Red Hat Text", sans-serif;
 }
 
 .clamp-two-lines {
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
 }
-
-
-

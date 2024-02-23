@@ -1,38 +1,38 @@
 .bi {
-    display: inline-block;
+  display: inline-block;
 }
 
 li a {
-    transition: color 0.3s ease ;
+  transition: color 0.3s ease;
 }
 
 li a:hover {
-    color: white !important;
+  color: white !important;
 }
 
-li .bi{
-    transition: transform 0.3s ease;
+li .bi {
+  transition: transform 0.3s ease;
 }
 
 li a:hover .bi {
-    transform: translateX(5px);
+  transform: translateX(5px);
 }
 
 li:not(:hover) .bi {
-    transform: translateX(0);
+  transform: translateX(0);
 }
 
 .cust-foot {
-    transition: 0.2s ease;
+  transition: 0.2s ease;
 }
 
 .cust-foot:hover {
-    transform: rotate(-10deg);
-    scale: 1.1;
-    color: #c083fd !important;
+  transform: rotate(-10deg);
+  scale: 1.1;
+  color: #c083fd !important;
 }
 
 .cust-foot:not(:hover) {
-    transform: rotate(0);
-    color: initial;
+  transform: rotate(0);
+  color: initial;
 }
