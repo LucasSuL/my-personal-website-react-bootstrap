@@ -1,9 +1,9 @@
 import React from "react";
 import "../../styles/footer.css";
-import resume from "../../../public/Resume Jan 2024.pdf";
+import resume from "../../../public/Lucas Su Resume.pdf";
 import transcript from "../../../public/Transcript Jan 2024.pdf";
 import portfolio from "../../../public/Portfolio_Su Lijie 2022.2_compressed.pdf";
-import pianoComposition from "../../../public/Starry Night（composed as an amateur in high school).pdf";
+import pianoComposition from "../../../public/Starry Night.pdf";
 
 export default function Footer() {
   return (
